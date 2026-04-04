@@ -1,0 +1,50 @@
+div {
+    background-color: black; 
+    margin-right: 74.9%;
+    border: 2px solid #00c8ff;
+
+}
+
+h1 {
+    text-align: center;
+    color:#00c8ff;
+    font-size: 45px;
+}
+
+h2 {
+    text-align: center;
+    color:#00c8ff;
+    font-size: 25px;
+}
+
+li {
+    color:antiquewhite;
+}
+
+p {
+
+    color: rgb(255, 255, 255);
+}
+.img-card {
+    width: 198px;
+    height: 198px;
+    border-radius:10px;
+    margin: 0 auto;
+    border: 2px solid #00c8ff;
+    padding: 15px;
+    display: block;
+    
+}
+
+img {
+    width: 35px;
+
+}
+
+.habilidade {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+
