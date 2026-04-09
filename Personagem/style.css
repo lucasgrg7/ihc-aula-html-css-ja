@@ -1,50 +1,72 @@
-div {
-    background-color: black; 
-    margin-right: 74.9%;
-    border: 2px solid #00c8ff;
 
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(135deg, #0a0a0a, #1c1c1c);
+    font-family: Arial, sans-serif;
 }
 
-h1 {
+
+.card {
+    background-color: #000;
+    border: 2px solid #00c8ff;
+    border-radius: 12px;
+    padding: 25px;
+    width: 320px;
+    box-shadow: 0 0 20px #00c8ff55;
     text-align: center;
-    color:#00c8ff;
-    font-size: 45px;
+}
+
+
+h1 {
+    color: #00c8ff;
+    font-size: 32px;
+    margin-bottom: 15px;
 }
 
 h2 {
-    text-align: center;
-    color:#00c8ff;
-    font-size: 25px;
+    color: #00c8ff;
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+
+ul {
+    list-style: none;
+    padding: 0;
 }
 
 li {
-    color:antiquewhite;
+    color: antiquewhite;
+    margin: 5px 0;
 }
 
-p {
 
-    color: rgb(255, 255, 255);
-}
 .img-card {
-    width: 198px;
-    height: 198px;
-    border-radius:10px;
-    margin: 0 auto;
+    width: 180px;
+    height: 180px;
+    border-radius: 10px;
     border: 2px solid #00c8ff;
-    padding: 15px;
-    display: block;
-    
+    padding: 10px;
+    margin-bottom: 10px;
 }
+
 
 img {
     width: 35px;
-
 }
+
 
 .habilidade {
     display: flex;
     align-items: center;
+    justify-content: flex-start;
     gap: 10px;
+    background: #111;
+    padding: 8px;
+    border-radius: 6px;
+    transition: 0.3s;
 }
-
-
